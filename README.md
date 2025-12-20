@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ciftitools-fe
 
 Home: https://github.com/mandymejia/ciftiTools
 
-Package license: GPL-3.0-or-later
+Package license: GPL-3.0-only
 
 Summary: CIFTI files contain brain imaging data in "grayordinates," which represent the gray matter as cortical surface vertices (left and right) and subcortical voxels (cerebellum, basal ganglia, and other deep gray matter). 'ciftiTools' provides a unified environment for reading, writing, visualizing and manipulating CIFTI-format data. It supports the "dscalar," "dlabel," and "dtseries" intents. Grayordinate data is read in as a "xifti" object, which is structured for convenient access to the data and metadata, and includes support for surface geometry files to enable spatially-dependent functionality such as static or interactive visualizations and smoothing.
 
