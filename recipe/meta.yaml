@@ -12,7 +12,7 @@ source:
   sha256: a848fd58f539c68978a31c4746b08121f1567b5ad3fdf1ce2307bafcf6b5aed4
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -41,8 +41,13 @@ requirements:
     - r-rcolorbrewer
     - r-rnifti
     - r-fields
+    - r-ggpubr
     - r-gifti >0.7.5
+    - r-grid
+    - r-gridExtra
+    - r-htmlwidgets
     - r-oro.nifti
+    - r-png
     - r-rgl
     - r-viridislite
     - r-xml2
