@@ -43,7 +43,6 @@ requirements:
     - r-fields
     - r-ggpubr
     - r-gifti >0.7.5
-    - r-grid
     - r-gridExtra
     - r-htmlwidgets
     - r-oro.nifti
