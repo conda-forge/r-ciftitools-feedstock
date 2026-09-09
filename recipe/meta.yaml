@@ -1,4 +1,4 @@
-{% set version = "0.19.0" %}
+{% set version = "0.21.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ciftiTools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ciftiTools/ciftiTools_{{ version }}.tar.gz
-  sha256: a848fd58f539c68978a31c4746b08121f1567b5ad3fdf1ce2307bafcf6b5aed4
+  sha256: 93fd269f4038d51225e262bf2e4ae3d00909158e7cb1cb05edb0e66dc3363bfd
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
